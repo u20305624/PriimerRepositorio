@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shark Seguros</title>
+    <link rel="stylesheet" type="text/css" href="css/shark_seguros.css" />
+    <link rel="icon" type="image/ico" href="img/tiburon.ico">
+    <script src="script/SharkSeguros.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div name="cabecera" class="Cabecera">
+            <img class="LogoCabecera" src="img/logo_shark_seguros_2.png" />
+        </div>
+        <div name="menu" class="Menu">
+            <span class="OpcionMenu">Seguros</span>
+            <span class="OpcionMenu">Beneficios</span>
+            <span class="OpcionMenu">Blog</span>
+            <span class="OpcionMenu">Centro de Ayuda</span>
+        </div>
+        <div name="BotonesDerecha" class="Botonera">
+            <input type="button" class="Boton ZonaSegura" value="Zona Segura" onclick="MenuSitio('ZonaSegura');">
+        </div>
+    </div>
+    <div id="cuerpo" class="CuerpoInicio">
+        <span class="Proposito">
+            Queremos ofrecerte el mejor <u>seguro</u> <br />para preteger lo que <u>más quieres</u>.
+        </span>
+        <br /><br />
+    </div>
+    <div class="Productos">
+            <span class="Seguros Vehicular" onclick="MenuSitio('CotizarVehicular');">Seguro Vehicular</span>
+            <span class="Seguros SOAT" onclick="Menusitio('CotizarSoat');">SOAT Vehicular</span>
+            <span class="Seguros Ahorro" onclick="MenuSitio('CotizarAhorro');">Seguro Ahorro</span>
+            <span class="Seguros Educacion" onclick="MenuSitio('Educacion');">Seguro Educación</span>
+            <span class="Seguros Viajes">Seguro Viajes</span>
+    </div>      
+    <div id="botonera" class="BotoneraFooter">
+
+        <input type="button" class="Boton" value="Mas Seguros">
+    </div>
+    <div id="footer">
+
+    </div>
+
+</body>
+
+</html>
